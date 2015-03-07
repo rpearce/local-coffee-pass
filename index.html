@@ -60,8 +60,10 @@
                 All for $25.
               </h2>
               <form class="banner__form" action="/">
-                <input type="text" class="form__input banner__formInput" placeholder="Name" />
-                <input type="email" class="form__input banner__formInput" placeholder="Email Address" />
+                <label for="hero-name" class="is-hidden">Name</label>
+                <input type="text" id="hero-name" class="form__input banner__formInput" placeholder="Name" />
+                <label for="hero-email" class="is-hidden">Email</label>
+                <input type="email" id="hero-email" class="form__input banner__formInput" placeholder="Email Address" />
                 <button type="submit" class="form__submit banner__formSubmit">
                   Submit
                 </button>
@@ -116,25 +118,29 @@
         <div class="layout--constrained">
           <div class="row">
             <div class="size1of2">
-              <h3 id="sales-heading">
+              <h3 id="participate-heading">
                 Does your coffee shop want to participate?
               </h3>
               <article role="article">
                 <p>
                   <em>We are talking to neighborhood coffee shops now.</em>
                 </p>
-                <form>
+                <form action="/">
                   <div>
-                    <input type="text" class="form__input" placeholder="Name" required />
+                    <label for="participate-name" class="is-hidden">Name</label>
+                    <input type="text" id="participate-name" class="form__input" placeholder="Name" required />
                   </div>
                   <div>
-                    <input type="email" class="form__input" placeholder="Email Address" required />
+                    <label for="participate-email" class="is-hidden">Email</label>
+                    <input type="email" id="participate-email" class="form__input" placeholder="Email Address" required />
                   </div>
                   <div>
-                    <input type="telephone" class="form__input" placeholder="Telephone" />
+                    <label for="participate-telephone" class="is-hidden">Telephone</label>
+                    <input type="telephone" id="participate-telephone" class="form__input" placeholder="Telephone" />
                   </div>
                   <div>
-                    <input type="text" class="form__input" placeholder="Coffee Shop" />
+                    <label for="participate-shop" class="is-hidden">Coffee Shop</label>
+                    <input type="text" id="participate-shop" class="form__input" placeholder="Coffee Shop" />
                   </div>
                   <div>
                     <button type="submit" class="form__submit">

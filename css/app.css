@@ -49,6 +49,9 @@ h4 {
 button {
   -webkit-font-smoothing: antialiased;
 }
+.is-hidden {
+  display: none;
+}
 .layout--constrained {
   position: relative;
   max-width: 1080px;

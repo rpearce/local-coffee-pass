@@ -163,5 +163,14 @@
         &copy; 2015 Local Coffee Pass
       </div>
     </footer>
+
+    <script>
+      var loadScript = function() {
+        var script = document.createElement('script');
+        script.src = 'js/app.js';
+        document.body.appendChild(script);
+      });
+      window.addEventListener('load', loadScript, false);
+    </script>
   </body>
 </html>
